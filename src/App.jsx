@@ -5,6 +5,7 @@ import Products from './components/Products/Products'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import TopProducts from './components/TopProducts/TopProducts'
+import Banner from './components/Banner/Banner'
 
 const App = () => {
 
@@ -23,6 +24,7 @@ const App = () => {
     <Hero />
     <Products />
     <TopProducts />
+    <Banner />
     </div>
   );
 };
